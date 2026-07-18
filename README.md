@@ -311,7 +311,6 @@ Search • Filter • View Tickets
 **Tharunkumar S**
 
 - GitHub: https://github.com/tharunkumar41
-- LinkedIn: Add your LinkedIn profile
 
 ---
 
