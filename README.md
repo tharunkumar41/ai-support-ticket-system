@@ -242,37 +242,45 @@ Search • Filter • View Tickets
 
 ## Home Page
 
-![Home Page](./screenshots/home-page.png)
+![Home Page](.client/screenshots/home-page.png)
 
 ---
 
 ## Admin Login
 
-![Admin Login](./screenshots/admin-login.png)
+![Admin Login](.client/screenshots/admin-login.png)
 
 ---
 
 ## Admin Dashboard
 
-![Admin Dashboard](./screenshots/admin-dashboard.png)
+![Admin Dashboard](.client/screenshots/admin-dashboard.png)
 
 ---
 
 ## Ticket Cards with AI Suggestions
 
-![Ticket Cards](./screenshots/ticket-cards.png)
+![Ticket Cards](.client/screenshots/ticket-cards.png)
 
 ---
 
 ## Search Functionality
 
-![Search Functionality](./screenshots/search-functionality.png)
+![Search Functionality](.client/screenshots/search-functionality.png)
 
 ---
 
 ## Filter by Priority & Category
 
-![Filter Functionality](./screenshots/filter-functionality.png)
+![Filter Functionality](.client/screenshots/filter-functionality.png)
+
+## MongoDB Admin Collection
+
+![MongoDB Admin Collection](.server/screenshots/mogngodb-admin-collection.png)
+
+## MongoDB Tickets Collections
+![MongoDB Admin Collection](.server/screenshots/mogngodb-tickets-collection.png)
+
 
 ## Future Improvements
 
