@@ -305,7 +305,9 @@ GET /api/admin/tickets?category=Billing
 ### MongoDB Tickets Collections
 <img width="1813" height="649" alt="mongodb-tickets-collection" src="https://github.com/user-attachments/assets/7d5130ce-f91f-4cf7-b571-8831ac5372ed" />
 
+## Trade-offs
 
+Due to the assignment timeline, I prioritized implementing the core features over advanced UI enhancements. The application focuses on functionality such as JWT authentication, AI-generated reply suggestions, ticket management, search, filtering, pagination, and MongoDB integration. Features like real-time notifications, email alerts, role-based permissions beyond admin access, and comprehensive testing were intentionally left for future enhancements.
 
 ## Future Improvements
 
