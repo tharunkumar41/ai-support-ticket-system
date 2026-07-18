@@ -1,4 +1,4 @@
-<!-- # 🤖 AI Support Ticket System
+-- # 🤖 AI Support Ticket System
 
 An AI-powered Full Stack Support Ticket System that allows users to submit support requests. The backend uses **Google Gemini AI** to automatically classify each ticket by **priority**, **category**, and generate an **AI suggested reply**. Administrators can securely log in to view, search, and filter submitted tickets.
 
@@ -296,4 +296,4 @@ Search • Filter • View Tickets
 
 ## License
 
-This project is developed for learning and portfolio purposes. -->
+This project is developed for learning and portfolio purposes.
