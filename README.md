@@ -248,7 +248,7 @@ Search • Filter • View Tickets
 
 ## Admin Login
 
-![Admin Login](.client\screenshots\admin-login.png)
+![Admin Login](.client/screenshots/admin-login.png)
 
 ---
 
