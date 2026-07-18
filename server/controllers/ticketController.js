@@ -1,9 +1,8 @@
 const Ticket = require("../models/Ticket");
+const { triageTicket } = require("../services/aiService");
 
 const createTicket = async (req, res) => {
   try {
-    console.log(req.body);
-
     const { name, email, message } = req.body;
 
     if (!name || !email || !message) {
@@ -13,15 +12,22 @@ const createTicket = async (req, res) => {
       });
     }
 
+    // AI Triage
+    const aiResult = await triageTicket(message);
+
     const ticket = await Ticket.create({
       name,
       email,
       message,
+      priority: aiResult.data.priority,
+      category: aiResult.data.category,
+      suggestedReply: aiResult.data.suggestedReply,
+      aiStatus: aiResult.success ? "SUCCESS" : "FAILED",
     });
 
     res.status(201).json({
       success: true,
-      message: "Ticket created successfully",
+      message: "Ticket submitted successfully",
       data: ticket,
     });
   } catch (error) {

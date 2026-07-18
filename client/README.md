@@ -1,16 +1,87 @@
-# React + Vite
+# AI Support Ticket System - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This is the frontend of the AI Support Ticket System built using React and Vite. It provides a clean interface for users to submit support tickets and an admin dashboard to manage them.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Submit support tickets
+- Responsive user interface
+- Admin Login
+- Protected Dashboard
+- Search tickets
+- Filter by Priority
+- Filter by Category
+- Pagination
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- Axios
+- React Router DOM
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Why These Technologies?
+
+- React provides a fast and component-based UI.
+- Vite offers a lightweight and fast development experience.
+- Axios simplifies API communication.
+- React Router enables client-side routing.
+- React Icons improves the overall user experience.
+
+## Project Structure
+
+```
+src/
+│── api/
+│── components/
+│── pages/
+│── App.jsx
+│── main.jsx
+```
+
+## Installation
+
+```bash
+git clone <frontend-repository-url>
+
+cd client
+
+npm install
+
+npm run dev
+```
+
+The frontend will run at:
+
+```
+http://localhost:5173
+```
+
+## Backend Configuration
+
+Update the API base URL inside:
+
+```
+src/api/axios.js
+```
+
+Example:
+
+```javascript
+baseURL: "http://localhost:5000/api"
+```
+
+## Trade-off
+
+Due to the assignment timeline, I focused on implementing the core functionality using inline styling instead of a dedicated CSS framework. This allowed me to prioritize AI integration, authentication, filtering, and pagination.
+
+## Future Improvements
+
+- Dark Mode
+- Better animations
+- Toast notifications
+- Responsive mobile dashboard
+- User profile management
+- Unit testing

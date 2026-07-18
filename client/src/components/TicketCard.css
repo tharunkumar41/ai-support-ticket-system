@@ -1,0 +1,21 @@
+.ticket-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.ticket-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.18);
+}
+
+.priority-badge {
+  transition: transform 0.3s ease;
+}
+
+.ticket-card:hover .priority-badge {
+  transform: scale(1.08);
+}
