@@ -214,8 +214,6 @@ GET /api/admin/tickets?category=Billing
 
 ## Project Workflow
 
-## Project Workflow
-
 ```text
                       User
                         │
@@ -258,7 +256,6 @@ GET /api/admin/tickets?category=Billing
 
 ## Screenshots
 
-# Screenshots
 
 ## Home Page
 
