@@ -54,32 +54,37 @@ An AI-powered Full Stack Support Ticket System that allows users to submit suppo
 
 ## 📁 Project Structure
 
-```
-AI-Support-Ticket-System/
-│
+```text
+.
 ├── client/
+│   ├── screenshots/
 │   ├── src/
 │   │   ├── api/
+│   │   │   └── axios.js
 │   │   ├── components/
 │   │   ├── pages/
 │   │   ├── App.jsx
 │   │   └── main.jsx
-│   └── package.json
+│   ├── index.html
+│   ├── package.json
+│   └── vite.config.js
 │
 ├── server/
 │   ├── config/
+│   │   └── db.js
 │   ├── controllers/
 │   ├── middleware/
 │   ├── models/
 │   ├── routes/
 │   ├── services/
-│   ├── scripts/
 │   ├── utils/
+│   ├── scripts/
 │   ├── server.js
-│   └── package.json
+│   ├── package.json
+│   └── .env.example
 │
 ├── README.md
-└── .env.example
+└── .gitignore
 ```
 
 ---
