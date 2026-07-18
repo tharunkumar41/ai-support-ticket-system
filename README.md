@@ -257,52 +257,52 @@ GET /api/admin/tickets?category=Billing
 ## Screenshots
 
 
-## Home Page
+### Home Page
 
 <img width="1289" height="976" alt="home-page" src="https://github.com/user-attachments/assets/738ef8c3-b3f9-450e-966b-434f89bbcc46" />
 
 
 ---
 
-## Admin Login
+### Admin Login
 
 <img width="537" height="494" alt="admin-login" src="https://github.com/user-attachments/assets/c5148fc4-1a85-49f2-b0aa-9b5e40f4bd5b" />
 
 
 ---
 
-## Tickets Bokking Page
+### Tickets Bokking Page
 
 <img width="940" height="799" alt="tickets-booking-page" src="https://github.com/user-attachments/assets/382492fb-559f-4a4e-afbc-25ca4a6b67b0" />
 
 
 ---
 
-## Ticket Cards with AI Suggestions
+### Ticket Cards with AI Suggestions
 
 <img width="1172" height="844" alt="ticket-cards" src="https://github.com/user-attachments/assets/bda37db4-3797-4c77-9b7c-dfbf3b6746ed" />
 
 
 ---
 
-## Search Functionality
+### Search Functionality
 
 <img width="1240" height="923" alt="search-functionality" src="https://github.com/user-attachments/assets/1dfa5723-6f23-4549-b4da-bc6a8dc1c1ea" />
 
 
 ---
 
-## Filter by Priority & Category
+### Filter by Priority & Category
 
 <img width="1228" height="923" alt="filter-functionality" src="https://github.com/user-attachments/assets/28259e5f-2bb8-4a22-ad52-d7954be55c76" />
 
 
-## MongoDB Admin Collection
+### MongoDB Admin Collection
 
 <img width="1806" height="628" alt="mongodb-admin-collection" src="https://github.com/user-attachments/assets/a43d5424-5cd5-429f-a5e6-642054b272bd" />
 
 
-## MongoDB Tickets Collections
+### MongoDB Tickets Collections
 <img width="1813" height="649" alt="mongodb-tickets-collection" src="https://github.com/user-attachments/assets/7d5130ce-f91f-4cf7-b571-8831ac5372ed" />
 
 
