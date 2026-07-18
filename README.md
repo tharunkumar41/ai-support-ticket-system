@@ -214,29 +214,44 @@ GET /api/admin/tickets?category=Billing
 
 ## Project Workflow
 
-```
-User
- │
- ▼
-React Frontend
- │
- ▼
-Express Backend
- │
- ▼
-Google Gemini AI
- │
- ▼
-MongoDB Atlas
- │
- ▼
-Admin Login (JWT)
- │
- ▼
-Dashboard
- │
- ▼
-Search • Filter • View Tickets
+## Project Workflow
+
+```text
+                      User
+                        │
+                        ▼
+          Submit Support Ticket
+                        │
+                        ▼
+              React Frontend (Vite)
+                        │
+                 Axios HTTP Request
+                        │
+                        ▼
+             Express.js REST API
+                        │
+          Validate Request & Store Data
+                        │
+                        ▼
+                MongoDB Atlas Database
+                        │
+                        ▼
+             Generate AI Suggested Reply
+             (Google Gemini API)
+                        │
+                        ▼
+          Save AI Suggestion to Database
+                        │
+                        ▼
+              Admin Login (JWT Auth)
+                        │
+                        ▼
+             Admin Dashboard (React)
+                        │
+        Search │ Filter │ Pagination
+                        │
+                        ▼
+          View Tickets & AI Suggestions
 ```
 
 ---
